@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/build/tailwind.css" />
+  </head>
+  <body class="bg-gray-300">
+    <div class="bg-gray-100 flex">
+      <div
+        class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:py-12"
+      >
+        <div class="xl:max-w-lg xl:ml-auto">
+          <img class="h-12" src="img/logo.png" alt="Triptip" />
+          <img
+            class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-72 sm:w-full sm:object-cover sm:object-center lg:hidden"
+            src="img/Faro.JPG"
+            alt="Faro beach"
+          />
+          <h1
+            class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:text-4xl sm:mt-8 lg:text-3xl xl:text-4xl"
+          >
+            You can work from anywhere.
+            <br class="hidden lg:inline" />
+            <span class="text-brand-blue">Take advantage of it.</span>
+          </h1>
+          <p class="mt-2 text-gray-600 sm:text-xl sm:mt-4">
+            Workcation helps you find work-friendly rentals in beautiful
+            locations so you can enjoy some nice weather even when you're not in
+            vacation.
+          </p>
+          <div class="mt-4 sm:mt-6">
+            <a href="#" class="btn bg-brand-blue text-white sm:text-base shadow-lg"
+              >Book your escape</a
+            >
+            <a href="#" class="btn btn-gray ml-2 sm:text-base">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!--Redesign for large size screens -->
+      <div class="hidden lg:block lg:w-1/2 lg:relative">
+        <img
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          src="img/Faro.JPG"
+          alt="Faro beach"
+        />
+      </div>
+    </div>
+  </body>
+</html>
